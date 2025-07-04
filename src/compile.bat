@@ -1,4 +1,4 @@
-cd "C:\Users\Ashwin\Desktop\Programming Portfolio\Finished Projects\py-to-exe\src"
+cd "C:\Users\ashwi\Desktop\py-to-exe\src"
 python -m pip install --upgrade pip
-pip install pyinstaller
-pyinstaller --onefile --noconsole --icon="C:\\Users\\Ashwin\\Desktop\\Programming Portfolio\\Finished Projects\\py-to-exe\\icon\\favicon.ico" -w "main.py"
+py -m pip install pyinstaller
+py -m PyInstaller --onefile --noconsole -w "main.py"
