@@ -58,7 +58,6 @@ def app():
     window = Tk()
     window.geometry("700x350")
     window.resizable(False, False)
-    window.iconbitmap("C:\\Users\\Ashwin\\Desktop\\Programming Portfolio\\Finished Projects\\py-to-exe\\icon\\favicon.ico")
     window.title(".py to .exe")
 
     menubar = Menu(window)
